@@ -6,6 +6,7 @@
     "uc00604programar": {
       "projectType": "application",
       "schematics": {
+        
         "@schematics/angular:component": {
           "skipTests": true
         },
