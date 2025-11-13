@@ -1,12 +1,19 @@
 {
-  "$schema": ".uc00604programar",
+  "$schema": ".uc00604",
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "uc00604programar": {
       "projectType": "application",
-      "schematics": {},
-
+      "schematics": {
+        "@schematics/angular:component": {
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "skipTests": true
+        }
+      },
+      "root":"",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
