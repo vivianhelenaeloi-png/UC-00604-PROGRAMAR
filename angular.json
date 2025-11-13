@@ -1,12 +1,12 @@
 {
-  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "$schema": ".uc00604programar",
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "uc00604programar": {
       "projectType": "application",
       "schematics": {},
-      "root": "",
+
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
